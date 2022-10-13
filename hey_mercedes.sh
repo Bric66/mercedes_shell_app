@@ -2,7 +2,6 @@
 
 restart () { source ./hey_mercedes.sh hey_mercedes; };
 
-
 if [ "$1" == "hey_mercedes" ]; then
 	echo "Bonjour, comment puis-je vous aider aujourd'hui?";
         read input;
